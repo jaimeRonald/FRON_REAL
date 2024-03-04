@@ -74,15 +74,18 @@ import axios from 'axios';
 import { Header } from "./components/Header";
 import { MainArticle } from "./components/MainArticle";
 import { NewContainer } from './components/NewContainer';
+import { ArticlesContainer } from './components/ArticlesContainer';
+import { Carousel } from './components/Carousel';
 function App () {
   return (
-    <main className='px-4 pt-6'>
+    <main className='px-10 pt-6'>
       <Header />
-      <div className="sm:flex sm:gap-8">
+      <Carousel/>
+      <div className="lg:flex lg:gap-8 p-8">
         <MainArticle  />
         <NewContainer />
       </div>
-     
+      <ArticlesContainer />
     </main>
   )
 }

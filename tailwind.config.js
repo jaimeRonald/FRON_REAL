@@ -13,6 +13,7 @@ export default {
         'GrayishBlue': 'hsl(233, 8%, 79%)',
         'DarkGrayishBlue': 'hsl(236, 13%, 42%)',
         'VeryDarkBlue': 'hsl(240, 100%, 5%)',
+        'color_logo': '#00adb5',
       },
     },
   },

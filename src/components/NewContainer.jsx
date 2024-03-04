@@ -20,7 +20,7 @@ export const NewContainer = () => {
 
   useEffect(() => {
     // Realiza la solicitud HTTP al backend
-    axios.get('http://127.0.0.1:8001/obtener', { credentials: 'include' })
+    axios.get('http://127.0.0.1:8000/obtener', { credentials: 'include' })
       .then(response => {
         // Actualiza el estado con los datos del backend
         setArticles(response.data);
