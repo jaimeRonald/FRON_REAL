@@ -21,18 +21,18 @@ export const Carousel = () => {
       // },
       {
         image : imagen_principal_slider,
-        title: '',
+        title: 'Hola , Soy Ronal Visitación , un apasionado de la programacion con un enfoque orientado a resultados de éxito.',
         link : ''
       },
       {
         image :segunda_imagen_principal,
-        title : 'Hola ,Soy Ronald Visitación,  Desarrollador fullstack , me apasiona la programación ,asi como disfrutar del deporte y pasarlo bien con mi familia y amigos ',
+        title : 'Hola ,Soy Ronald Visitación,  Desarrollador fullstack , me apasiona la programación ,asi como disfrut del deporte y pasarlo bien con mi familia y amigos ',
         link : '#sorbre_mi'
 
       },
       {
         image: imagen_los_lemguages,
-        title: 'Tecnologías que domino',
+        title: 'PHP (laravel,Sinfony,CodeIgniter) Javascript(Jquery, React, Vue) SQL (MySql,SqlServer,Oracle) ',
         link : '#lenguages_que_domino'
       },
      
@@ -68,9 +68,9 @@ export const Carousel = () => {
               {currentIndex === 0 && (// Superposición solo en la primera imagen (pero pequeña)
               <img src={logo} // Reemplaza con la ruta correcta de tu nueva imagen
                 alt='Superposición'
-                className='w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'/>
+                className='w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/12 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2'/>
               )}
-              <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-lora'>
+              <div className='absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-lora sm:w-11/12 lg:w-2/3 xl:w-1/2'>
               {slides[currentIndex].title}
                {/* Enlace hacia la sección destino */}
                {slides[currentIndex].link && (

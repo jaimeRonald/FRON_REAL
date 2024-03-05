@@ -78,7 +78,7 @@ import { ArticlesContainer } from './components/ArticlesContainer';
 import { Carousel } from './components/Carousel';
 function App () {
   return (
-    <main className='px-10 pt-6'>
+    <main className='px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-16 pt-6'>
       <Header />
       <Carousel/>
       <div className="lg:flex lg:gap-8 p-8">
