@@ -14,6 +14,8 @@ export const Header = () => {
 
   };
   const isDesktop = useMediaQuery({ minWidth: 640 });
+  console.log("pantalla "+isDesktop);
+
   return (
     <>
       <div className= "lg:h-[80px] bg-gray-200 flex place-content-between items-center relative">
@@ -22,7 +24,7 @@ export const Header = () => {
 
       </div>
       <hr className="border-t border-gray-300 my-0" />
-      <div className= {`${!menuVisible ? '' : 'hidden'} ${!isDesktop ? '' : 'hidden'} h-[250px] bg-gray-200 flex flex-col items-center`}>
+      <div className= {`${!menuVisible ? 'hidden' : ''} ${isDesktop ? 'hidden' : ''} h-[250px] bg-gray-200 flex flex-col items-center`}>
           <ul className={`sm:w-[70px] place-content-around lg:text-[23+px] items-center text-[30px] w-full text-right p-3`} >
                
 

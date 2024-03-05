@@ -3,19 +3,19 @@ import equisImg from '../assets/images/letra-x.png';
 export const Navbar = ({onClick,menuVisible,isDesktop}) => {
   return (
     <>
-        <div className="flex items-center" style={menuVisible ? {  flexDirection: 'column', justifyContent: 'center' }:{}}>
-            {!menuVisible && (
+        <div className="flex items-center">
+            {!menuVisible &&  (
                 <img
-                className="absolute right-0 w-10 h-9 cursor-pointer sm:hidden"
-                src={equisImg}
+                className="w-10 h-4 right-0 cursor-pointer sm:hidden"
+                src={amburgIgm}
                 onClick={onClick}
                 alt="Cerrar menú"
                 />
             )}
             {menuVisible && (
                 <img
-                className="w-10 h-4 cursor-pointer sm:hidden"
-                src={amburgIgm}
+                className="w-10 h-9  cursor-pointer sm:hidden"
+                src={equisImg}
                 onClick={onClick}
                 alt="Abrir menú"
                 />
