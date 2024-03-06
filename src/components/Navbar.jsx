@@ -20,24 +20,24 @@ export const Navbar = ({onClick,menuVisible,isDesktop}) => {
                 alt="Abrir menú"
                 />
             )}
-            <ul className={`${isDesktop ? '':'hidden'} sm:flex  sm:w-[600px] sm:place-content-around sm:text-[23+px] sm:items-center`} >
+            <ul className={`font-family-base  ${isDesktop ? '':'hidden'} sm:flex  sm:w-[600px] sm:place-content-around sm:text-[23+px] sm:items-center`} >
                 {/* ${menuVisible ? 'block text-[30px]' : 'hidden text-[18px]'} */}
 
                 <li>
-                <a className="font-lora transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#">
+                <a className="text-lg transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#">
                     Acerca de
                 </a>
                 </li>
                 <li>
-                    <a className="font-lora transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#" >Experiencia</a>
+                    <a className="text-lg transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#" >Experiencia</a>
 
                 </li>
                 <li>
-                    <a href="#" className="font-lora transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Mis skills</a>
+                    <a href="#" className=" text-lg transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Mis skills</a>
 
                 </li>
                 <li>
-                    <a href="#" className="font-lora transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Porfolios</a>
+                    <a href="#" className="text-lg transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Porfolios</a>
                 </li>
             </ul>
              

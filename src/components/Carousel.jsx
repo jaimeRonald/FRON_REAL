@@ -63,7 +63,7 @@ export const Carousel = () => {
     return (
       <div className='max-w-[100%] h-[780px] w-full m-auto py-16 px-4 relative group'>
         <div style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${slides[currentIndex].image})`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${slides[currentIndex].image})`,
               }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
               
               {currentIndex === 0 && (// Superposición solo en la primera imagen (pero pequeña)

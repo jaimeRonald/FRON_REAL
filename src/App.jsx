@@ -70,19 +70,21 @@ import axios from 'axios';
 //     </div>
 //   );
 // }
-
+import './styles/styles.css';
 import { Header } from "./components/Header";
 import { MainArticle } from "./components/MainArticle";
 import { NewContainer } from './components/NewContainer';
 import { ArticlesContainer } from './components/ArticlesContainer';
 import { Carousel } from './components/Carousel';
+import { Sobre_mi } from './components/Sobre_mi';
 function App () {
   return (
     <main className='bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-16 pt-6'>
       <Header />
       <Carousel/>
       <div className="lg:flex lg:gap-8 p-8">
-        <MainArticle  />
+        {/* <MainArticle  /> */}
+        <Sobre_mi />
         <NewContainer />
       </div>
       <ArticlesContainer />
