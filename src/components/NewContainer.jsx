@@ -2,25 +2,13 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import { NewArticle } from "./NewArticle";
-// export const NewContainer = () => {
-//   return (
-//     <aside className="bg-VeryDarkBlue text-OffWhite py-[28px] px-[20px]">
-//         <h1 className="text-SoftOrange text-4xl font-bold">New</h1>
-//         <NewArticle title="la vida es bella" text="It is a long established fact that a
-//          reader will be distracted by the readable content of a page when looking at its layout"/>
-//         <NewArticle title="lSobieland" text="2It is a long established fact that a
-//          reader will be distracted by the readable content of a page when looking at its layout"/>
-//         <NewArticle title="Algoritmo de revoliuciuon civil" text="3It is a long established fact that a
-//          reader will be distracted by the readable content of a page when looking at its layout"/>
-//     </aside>
-//   )
-// }
+
 export const NewContainer = () => {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
     // Realiza la solicitud HTTP al backend
-    axios.get('http://127.0.0.1:8000/obtener', { credentials: 'include' })
+    axios.get('http://127.0.0.1:8000/obtener_skills', { credentials: 'include' })
       .then(response => {
         // Actualiza el estado con los datos del backend
         setArticles(response.data);
@@ -36,8 +24,8 @@ export const NewContainer = () => {
   }, [articles]);
 
   return (
-    <aside className="bg-VeryDarkBlue text-OffWhite sm:py-[30px] sm:w-full md:w-2/2 lg:w-1/2 xl:w-3/5 p-4 sm:p-6 lg:p-8">
-      <h1 className="text-SoftOrange text-4xl font-bold mb-4">Experiencia</h1>
+    <aside className="bg-teal-500 text-OffWhite sm:py-[30px] sm:w-full md:w-2/2 lg:w-1/2 xl:w-3/5 p-4 sm:p-6 lg:p-8">
+      <h1 className="text-gray-950 text-4xl font-bold mb-4"> Habilidades :</h1>
       {articles.map((article, index) => (
         <NewArticle key={index} title={article.title} text={article.text} />
       ))}
