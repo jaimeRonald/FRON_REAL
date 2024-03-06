@@ -17,7 +17,7 @@ export const Header = () => {
   console.log("pantalla "+isDesktop);
 
   return (
-    <>
+    <div className='className="bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-32 pt-6"'>
       <div className= "lg:h-[80px] bg-white flex place-content-between items-center relative">
         <img style={{width:100 , height:80}} src={logo} alt="logo" />
         <Navbar  onClick={toggleMenu}  menuVisible={menuVisible} isDesktop = {isDesktop}/>
@@ -46,7 +46,7 @@ export const Header = () => {
           </ul>
        </div>
 
-    </>
+    </div>
     
   )
 }

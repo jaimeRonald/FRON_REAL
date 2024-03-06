@@ -77,18 +77,25 @@ import { NewContainer } from './components/NewContainer';
 import { ArticlesContainer } from './components/ArticlesContainer';
 import { Carousel } from './components/Carousel';
 import { Sobre_mi } from './components/Sobre_mi';
+import { Footer } from './components/Footer';
 function App () {
   return (
-    <main className='bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-16 pt-6'>
+    <>
       <Header />
-      <Carousel/>
-      <div className="lg:flex lg:gap-8 p-8">
-        {/* <MainArticle  /> */}
-        <Sobre_mi />
-        <NewContainer />
-      </div>
-      {/* <ArticlesContainer /> */}
-    </main>
+      <main className='bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-36 pt-6'>
+      
+        <Carousel/>
+        <div className="lg:flex lg:gap-8 p-8">
+          {/* <MainArticle  /> */}
+          <Sobre_mi />
+          <NewContainer />
+        </div>
+        <ArticlesContainer />
+      </main>
+      <Footer />
+
+    </>
+      
   )
 }
 

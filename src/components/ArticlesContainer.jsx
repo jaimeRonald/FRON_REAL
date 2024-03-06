@@ -26,31 +26,37 @@ export const ArticlesContainer = () => {
   }, [experiences]);
 
   return (
-    <section id="sorbre_mi" className="mt-10 md:flex md:flex-wrap md:gap-5">
-        {experiences.map((experience , index) => (
-            <Article key={index}  img={img1} number = {experience.title}  title = {experience.empresa} text={experience.text}/>
+    <>
+      <h2 className='font-family-base text-gray-800 text-4xl text-center pt-4 font-bold'>Experiencias</h2>
 
-        ))}
-        
-        {/* <Article 
-         img={img1}
-         number = '1'
-         title = "Noticia de hoy"
-         text =  'El melocotón bailaba con entusiasmo en la bibli de hoy '
-         />
-        <Article 
-         img={img2}
-         number = '2'
-         title = "Noticia de hoy"
-         text =  'El melocotón bailaba con entusiasmo en la bibliote especiales'
-        />
-        <Article
-         img={img3}
-         number = '3'
-         title = "Noticia de hoy"
-         text =  'El melocotón bailaba con entusiasmo en la biblioteca paolo jugarà'
-        /> */}
-    </section>
+      <section id="sorbre_mi" className="mt-10 md:flex md:flex-wrap md:gap-5 pb-9">
+
+          {experiences.map((experience , index) => (
+              <Article key={index}  img={img1} number = {experience.title}  title = {experience.empresa} text={experience.text}/>
+
+          ))}
+          
+          {/* <Article 
+          img={img1}
+          number = '1'
+          title = "Noticia de hoy"
+          text =  'El melocotón bailaba con entusiasmo en la bibli de hoy '
+          />
+          <Article 
+          img={img2}
+          number = '2'
+          title = "Noticia de hoy"
+          text =  'El melocotón bailaba con entusiasmo en la bibliote especiales'
+          />
+          <Article
+          img={img3}
+          number = '3'
+          title = "Noticia de hoy"
+          text =  'El melocotón bailaba con entusiasmo en la biblioteca paolo jugarà'
+          /> */}
+      </section>
+    </>
+    
     
   )
 }
