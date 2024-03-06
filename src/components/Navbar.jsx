@@ -29,7 +29,7 @@ export const Navbar = ({onClick,menuVisible,isDesktop}) => {
                 </a>
                 </li>
                 <li>
-                    <a className="font-lora transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#"  >Experiencia</a>
+                    <a className="font-lora transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#" >Experiencia</a>
 
                 </li>
                 <li>

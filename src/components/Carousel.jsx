@@ -24,16 +24,17 @@ export const Carousel = () => {
         title: 'Hola , Soy Ronal Visitación , un apasionado de la programacion con un enfoque orientado a resultados de éxito.',
         link : ''
       },
+      
       {
-        image :segunda_imagen_principal,
-        title : 'Hola ,Soy Ronald Visitación,  Desarrollador fullstack , me apasiona la programación ,asi como disfrut del deporte y pasarlo bien con mi familia y amigos ',
-        link : '#sorbre_mi'
-
+        image: segunda_imagen_principal,
+        title: 'Aportando soluciones innovadoras y desarrollo de vanguardia en una variedad de sectores, demostrando versatilidad y compromiso con la excelencia. ',
+        link : '#lenguages_que_domino'
       },
       {
-        image: imagen_los_lemguages,
-        title: 'PHP (laravel,Sinfony,CodeIgniter) Javascript(Jquery, React, Vue) SQL (MySql,SqlServer,Oracle) ',
-        link : '#lenguages_que_domino'
+        image :imagen_los_lemguages,
+        title : 'Apasionado por el aprendizaje continuo, me especializo en PHP, Javascript , Python ,MySQL , GIT , LINUX y estoy siempre explorando nuevas tecnología para entregar soluciones mejor inovadoras innovadoras',
+        link : '#sorbre_mi'
+
       },
      
     ];
