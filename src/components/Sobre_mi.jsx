@@ -12,8 +12,8 @@ export const Sobre_mi = () => {
             {/* <p className="text-lg font-semibold mb-4">¡Hola! .</p> */}
             <p className="text-gray-700 text-2xl p-3">
                 Soy desarrollador de Software , con experiencia 3 años en el lado  del Backend pero ademas he implementado tambien en frontend y deploy , si hay 
-                algo que me caratceriza es mi persistencia por lograr un objetivo , considero la buena comunicacion un pilar para obetenr mejora y eficientes resultados
-                sobre todo en el mundo del sofware 
+                algo que me caratceriza es mi persistencia por lograr un objetivo , considero la buena comunicación un pilar fundamental para obtener mejores y eficientes resultados
+                sobre todo en el mundo del sofware.
             </p>
             </div>
         </div>
