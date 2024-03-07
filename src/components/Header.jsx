@@ -33,11 +33,11 @@ export const Header = () => {
                     Acerca de</a>
                 </li>
                 <li className="w-full mb-4 border-t border-gray-300 border-opacity-50">
-                    <a className="transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#"  >Experiencia</a>
+                    <a href="#experiencia"  className="transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none"  >Experiencia</a>
 
                 </li>
                 <li className="w-full mb-4 border-t border-gray-300 border-opacity-50">
-                    <a href="#" className="transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Mis skills</a>
+                    <a href="#mis_habilidadades" className="transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Mis skills</a>
 
                 </li>
                 <li className="w-full mb-4 border-t border-gray-300 border-opacity-50">

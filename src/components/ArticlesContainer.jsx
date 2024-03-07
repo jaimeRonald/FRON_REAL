@@ -28,10 +28,10 @@ export const ArticlesContainer = () => {
   }, [experiences]);
 
   return (
-    <>
+    <div id="experiencia">
       <h2 className='font-family-base text-gray-800 text-4xl text-center pt-4 font-bold'>Experiencias</h2>
 
-      <section id="sorbre_mi" className="mt-10 md:flex md:flex-wrap md:gap-5 pb-9">
+      <section  className="mt-10 md:flex md:flex-wrap md:gap-5 pb-9">
 
           {experiences.map((experience , index) => (
               <Article key={index}  img={img1} number = {experience.title}  title = {experience.empresa} text={experience.text}/>
@@ -57,7 +57,7 @@ export const ArticlesContainer = () => {
           text =  'El melocotón bailaba con entusiasmo en la biblioteca paolo jugarà'
           /> */}
       </section>
-    </>
+    </div>
     
     
   )

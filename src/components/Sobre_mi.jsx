@@ -16,12 +16,12 @@ export const Sobre_mi = () => {
                 algo que me caratceriza es mi persistencia por lograr un objetivo , considero la buena comunicación un pilar fundamental para obtener mejores y eficientes resultados
                 sobre todo en el mundo del sofware.
             </p>
-            <p className="font-family-base text-gray-700 text-2xl p-3"> 
+            {/* <p className="font-family-base text-gray-700 text-2xl p-3"> 
                Desde mi etapa universitaria dodne descubri la programacion poco a poco me ha ido apasionando y el gusto por crear cosas y ver como estas funcionan me conlleva me conlleva a mejorarlas con la ayuda de la tecnologia en especial la programacion y los algoritmos se puede hacer realiar un sueño. 
             </p>
             <p className="font-family-base text-gray-700 text-2xl p-3">
               Tengo el grado de Bachiller en Ciencias de la Computación desde el 2020 y he trabajado en mas de 4 emprsas en desarrollo.
-            </p>
+            </p> */}
             </div>
         </div>
     </section>

@@ -82,15 +82,17 @@ function App () {
   return (
     <>
       <Header />
-      <main className='bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-36 pt-8'>
+      <main className='bg-gray-200 px-4 sm:px-6 lg:px-10 xl:px-8 2xl:px-60 pt-6'>
       
-        <Carousel/>
-        <div className="lg:flex lg:gap-8 p-40">
+        <div className="lg:flex lg:gap-8 p-8">
           {/* <MainArticle  /> */}
           <Sobre_mi />
           <NewContainer />
         </div>
+        <Carousel/>
+
         <ArticlesContainer />
+
       </main>
       <Footer />
 
