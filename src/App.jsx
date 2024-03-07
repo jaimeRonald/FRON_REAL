@@ -82,10 +82,10 @@ function App () {
   return (
     <>
       <Header />
-      <main className='bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-36 pt-6'>
+      <main className='bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-36 pt-8'>
       
         <Carousel/>
-        <div className="lg:flex lg:gap-8 p-8">
+        <div className="lg:flex lg:gap-8 p-40">
           {/* <MainArticle  /> */}
           <Sobre_mi />
           <NewContainer />

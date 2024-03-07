@@ -10,7 +10,9 @@ export const ArticlesContainer = () => {
 
   useEffect(() => {
     // Realiza la solicitud HTTP al backend
-    axios.get('http://127.0.0.1:8000/obtener_experiencias', { credentials: 'include' })
+    let url =  'http://127.0.0.1:8000/obtener_experiencias';
+    let url_produccion = 'https://ronaldeinsten123.000webhostapp.com/public/index.php/obtener_experiencias';
+    axios.get(url_produccion)
       .then(response => {
         // Actualiza el estado con los datos del backend
         setExperience(response.data);
