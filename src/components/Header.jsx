@@ -29,7 +29,7 @@ export const Header = () => {
                
 
                 <li className="w-full mb-4 mt-3">
-                    <a className="ftransition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" href="#">
+                    <a  href="#sobre_mi" className="ftransition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none">
                     Acerca de</a>
                 </li>
                 <li className="w-full mb-4 border-t border-gray-300 border-opacity-50">
@@ -41,7 +41,7 @@ export const Header = () => {
 
                 </li>
                 <li className="w-full mb-4 border-t border-gray-300 border-opacity-50">
-                    <a href="#" className="transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Porfolios</a>
+                    <a href="#carousel" className="transition-all duration-300 hover:text-teal-500 hover:underline hover:font-bold hover:scale-105 hover:shadow-none" >Porfolios</a>
                 </li>
           </ul>
        </div>
