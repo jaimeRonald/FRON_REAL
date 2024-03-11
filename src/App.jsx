@@ -78,6 +78,7 @@ import { ArticlesContainer } from './components/ArticlesContainer';
 import { Carousel } from './components/Carousel';
 import { Sobre_mi } from './components/Sobre_mi';
 import { Footer } from './components/Footer';
+import { Geolocalizacion } from './components/Geolocalizacion';
 function App () {
   return (
     <>
@@ -90,6 +91,11 @@ function App () {
           <NewContainer />
         </div>
         <Carousel/>
+        {/*<div className="App">
+          <h1>Geolocalización con Google Maps en React</h1>
+          <Geolocalizacion />
+        </div>*/}
+
 
         <ArticlesContainer />
 

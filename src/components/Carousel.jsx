@@ -19,16 +19,17 @@ export const Carousel = () => {
       //   title: 'Hola , Mi nombre Ronald VIsitación Moreno Desarrolador fullstack , asi como me apsiona la programación , soy amante del deporte y pasarlo bien con mi familia  y amigos ',
 
       // },
-      {
-        image : imagen_principal_slider,
-        title: 'Hola , Soy Ronal Visitación , un apasionado de la programacion con un enfoque orientado a resultados de éxito.',
-        link : ''
-      },
+    
       
       {
         image: segunda_imagen_principal,
-        title: 'Aportando soluciones innovadoras y desarrollo de vanguardia en una variedad de sectores, demostrando versatilidad y compromiso con la excelencia. ',
+        title: 'Con experiencia destacada en la integración de pasarelas de pago, como Mercado Pago, y conexión efectiva con diversas APIs. Implemento cuidadosamente automatizaciones con cron jobs para mejorar procesos y ofrecer resultados superiores al usuario ',
         link : '#lenguages_que_domino'
+      },
+      {
+        image : imagen_principal_slider,
+        title: 'Soy egresado de la Universidad Nacional de Trujillo , con el grado de Bachiller en Ciencias de la Computación',
+        link : ''
       },
       {
         image :imagen_los_lemguages,
@@ -66,11 +67,11 @@ export const Carousel = () => {
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${slides[currentIndex].image})`,
               }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
               
-              {currentIndex === 0 && (// Superposición solo en la primera imagen (pero pequeña)
+              {/*{currentIndex === 0 && (// Superposición solo en la primera imagen (pero pequeña)
               <img src={logo} // Reemplaza con la ruta correcta de tu nueva imagen
                 alt='Superposición'
                 className='w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/12 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2'/>
-              )}
+               )}*/}
               <div className='absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-lora sm:w-11/12 lg:w-2/3 xl:w-1/2'>
               {slides[currentIndex].title}
                {/* Enlace hacia la sección destino */}

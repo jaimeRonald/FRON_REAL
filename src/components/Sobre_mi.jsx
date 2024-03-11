@@ -13,7 +13,11 @@ export const Sobre_mi = () => {
         <div>
           {/* <p className="text-lg font-semibold mb-4">¡Hola! .</p> */}
           <p className="font-family-base text-gray-700 text-2xl p-3">
-            Pero además he implementado también en frontend y deploy. Si hay algo que me caracteriza es mi persistencia por lograr un objetivo. Considero la buena comunicación un pilar fundamental para obtener mejores y eficientes resultados, sobre todo en el mundo del software.
+            Además tengo experiencia en frontend y deployment. 
+          </p>
+          <p className="font-family-base text-gray-700 text-2xl p-3">
+          Si hay algo que me caracteriza es mi persistencia por lograr un objetivo. Considero la buena comunicación un pilar fundamental para obtener mejores y eficientes resultados, sobre todo en el mundo del software.
+
           </p>
         </div>
       </div>
