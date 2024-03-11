@@ -19,7 +19,9 @@ export const Header = () => {
   return (
     <div className='className="bg-gray-200 px-4 sm:px-6 lg:px-15 xl:px-12 2xl:px-32 pt-6"'>
       <div className= "lg:h-[80px] bg-white flex place-content-between items-center relative">
-        <img style={{width:100 , height:80}} src={logo} alt="logo" />
+      <a href="https://quiet-kashata-69d5a3.netlify.app/" className="cursor-pointer">
+        <img style={{ width: 100, height: 80 }} src={logo} alt="logo" />
+      </a>
         <Navbar  onClick={toggleMenu}  menuVisible={menuVisible} isDesktop = {isDesktop}/>
 
       </div>
